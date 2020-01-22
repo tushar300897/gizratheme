@@ -1,0 +1,41 @@
+# core: 8.x
+type: theme
+name: 'gizra'
+screenshot: gizra.png
+base theme: bootstrap
+# description: 'Built to use black-old which is based on Bootstrap, it is blogger theme.'
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  first_column: 'First column'
+  second_column: 'Second column'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  work: 'Work'
+  morework: 'Morework'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  customblock_region: 'Customblock region'
+  blog_view: 'Blog View'
+
+  footer1: 'Footerone'
+  footer2: 'Footertwo'
+  footer3: 'Footerthree'
+
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+
+libraries:
+  - gizra/global-styling
+  - gizra/attributes
+ 
+
+# Information added by Drupal.org packaging script on 2019-01-09
+version: '8.x-1.0'
+core: '8.x'
+project: 'gizra'
+datestamp: 1535372886

@@ -1,0 +1,18 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+
+attributes:
+  js:
+    js/script.js: {}
+    js/bootstrap.min.js: {}
+    js/popper.min.js: {}
+    js/masonry.pkgd.min.js: {}
+    js/jquery-2.2.4.min.js: {}
+    js/script.js: {}
+    js/font.js: {}
+  dependencies:
+  - core/jquery
+  - core/drupal

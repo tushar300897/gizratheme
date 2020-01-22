@@ -1,0 +1,295 @@
+* {
+	padding:0;
+	margin: 0;
+}
+.services{
+	text-align: center;
+}
+.service.container{
+	display: flex;
+}
+.more{
+	text-align: center;
+}
+@media only screen and (min-width: 768px){
+.navbar-toggle {
+    display: block !important;
+}
+}
+
+   .nav{
+    overflow-x: hidden;
+    
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1111;
+    background: #111111;
+    width: 100%;
+    transition: 0.5s
+
+
+   }
+
+    .closesidebar{
+    
+    position: absolute;
+    top: 0;
+    font-size: 33px;
+    right: 0;
+   }
+
+    .navbar-toggle { 
+    top: 32px;
+    position: absolute;
+    right: 25px;
+}
+.nav .nav-item a {
+
+  text-decoration: none;
+  font-size: 25px;
+  color: red;
+  display: block;
+  transition: 0.3s;
+}
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+.navbar-default {
+    background-color: white;
+    border-color: white;
+ }
+ .navbar-toggle .icon-bar{
+ 	height: 6px;
+    width: 39px;
+ }
+ .navbar-default .navbar-brand{
+ 	font-size: 87px;
+    line-height: 1;
+    font-family: "Abril Fatface", sans-serif;
+    color: #e27058;
+    text-decoration: none;
+ }
+  .navbar{
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    max-width: 1200px;
+    padding-left: 4.1666%;
+    padding-right: 4.1666%;
+  }
+  .main-container{
+  	margin-top: 65px;
+  }
+  @media only screen and (max-width: 600px) {
+  img {
+    width:100%;
+  }
+}
+.first p{
+font-size: 57px;
+}
+
+.second p{
+font-size: 50px;
+color: darkgrey;
+}
+.first.rule{
+border-top: 2px solid #e27058;
+    width: 100%;
+}
+.second.rule{
+	border-top: 2px solid #e27058;
+	width: 85%;
+    margin-left: 82px;
+}
+.third {
+	font-size: 20px;
+}
+.contact{
+	text-align: center;
+}
+.contact .btn{
+	border: 3px solid #578e9b;
+    padding: 0.8rem 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #578e9b;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.logo{
+	display: none;
+}
+.fas{
+	color: #d7d6d5;
+} 
+@media only screen and (max-width: 600px){
+.service.container {
+    display: block;
+}
+}
+.box h3{
+	font-size: 28px;
+}
+.separator{
+	color: #e27058;
+    font-size: 86px;
+}
+.box .rule{
+	border: 2px solid #e27058;
+    width: 86%;
+    height: 0px;
+    margin-left: 29px;
+}
+.gizra-logo{
+	color: red;
+}
+#block-projects{
+	text-align: center;
+	.x{
+		position: relative;
+	}
+	h3{
+		position: absolute;
+        top: 299px;
+        z-index: 11111;
+        background-color: rgba(0, 0, 0, 0.6);
+        font-size: 18px;
+}
+	}
+  .authorpic img{
+    border-radius: 50%;
+  }
+.authorinfo{
+  display: flex;
+}
+.datetime{
+  width: 100%;
+}
+.authorinfo{
+  .datetime{
+    .time{
+      float: right;
+    }
+  }
+}
+.test-block{
+  .fas{ color: #d7d6d5;
+} 
+  padding:17px;
+}
+.ourblogs h2{
+  text-align: center;
+}
+.more-link{
+  text-align: center;
+   a{ 
+  
+    border: 3px solid #578e9b;
+    padding: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #578e9b;
+    text-decoration: none;
+    &:hover{
+      background:blue;
+    }
+    
+  
+}
+}
+.footer.strong{
+  font-weight: bold;
+}
+.post-info{
+  img{
+    border-radius: 50%;
+    width: 124px;
+    margin-left: 2px;
+
+  }
+  .author{
+    .authorname{
+      font-size: 32px;
+    }
+    .dos{
+      margin-top: 11px;
+    }
+  }
+}
+@media only screen and (min-width: 768px){
+ img{
+    width: 100%;
+}
+}
+.footer{
+  margin-top: 32px;
+}
+.morework{
+  section.block:first-child{
+    width: 50%;
+    float: left;
+  }
+  section.block:last-child{
+    width: 50%;
+    float: right;
+  }
+
+}
+.work{
+  position: relative;
+  section{
+    .block-title{
+      position: absolute;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 19px;
+    top:50%;
+
+    }
+  }
+  
+}
+
+.morework{
+  position: relative;
+  section{
+    .block-title{
+      position: absolute;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 19px;
+    top:50%;
+
+    }
+  }
+  
+}
+
+@media only screen and (max-width: 600px){
+.morework{
+  section.block:first-child{
+    width: 100%;
+    
+  }
+  section.block:last-child{
+    width: 100%;
+    
+  }
+  section.block{
+    .block-title {
+      font-size: 1em;
+    }
+  }
+
+
+
+
+}
+}
+.btn:hover{
+  background-color: blue;
+}
