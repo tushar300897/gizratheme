@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:29d469ce-d863-4e58-8894-0d5ce319345c'
+  module:
+    - block_content
+    - system
+  theme:
+    - gizra
+id: third
+theme: gizra
+region: second_column
+weight: 0
+provider: null
+plugin: 'block_content:29d469ce-d863-4e58-8894-0d5ce319345c'
+settings:
+  id: 'block_content:29d469ce-d863-4e58-8894-0d5ce319345c'
+  label: Third
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

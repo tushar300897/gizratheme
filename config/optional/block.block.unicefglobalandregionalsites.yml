@@ -1,0 +1,31 @@
+
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6ccbdca7-e418-435f-bbb9-730b64a48549'
+  module:
+    - block_content
+    - system
+  theme:
+    - gizra
+id: unicefglobalandregionalsites
+theme: gizra
+region: morework
+weight: 0
+provider: null
+plugin: 'block_content:6ccbdca7-e418-435f-bbb9-730b64a48549'
+settings:
+  id: 'block_content:6ccbdca7-e418-435f-bbb9-730b64a48549'
+  label: 'UNICEF Global and Regional Sites'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

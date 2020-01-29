@@ -1,0 +1,31 @@
+uuid: f4f1f4fd-21bf-483f-8aea-1e23cf8af5a9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6bcf0449-73f2-432f-914a-24aed4765463'
+  module:
+    - block_content
+    - system
+  theme:
+    - gizra
+id: ehezamedicalrecordsappopeneheza
+theme: gizra
+region: morework
+weight: 0
+provider: null
+plugin: 'block_content:6bcf0449-73f2-432f-914a-24aed4765463'
+settings:
+  id: 'block_content:6bcf0449-73f2-432f-914a-24aed4765463'
+  label: 'E-HEZA Medical Records App Open E-HEZA'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,31 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.from_our_blog
+  module:
+    - system
+    - views
+  theme:
+    - gizra
+id: views_block__from_our_blog_block_1
+theme: gizra
+region: blog_view
+weight: 0
+provider: null
+plugin: 'views_block:from_our_blog-block_1'
+settings:
+  id: 'views_block:from_our_blog-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: '4'
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

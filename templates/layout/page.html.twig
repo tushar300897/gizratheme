@@ -62,7 +62,7 @@
         theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : container,
       ]
     %}
-    <header{{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">
+    <header{{ navbar_attributes.addClass(navbar_classes) }}class="" id="navbar" role="banner">
       {% if not navbar_attributes.hasClass(container) %}
         <div class="{{ container }}">
       {% endif %}
@@ -222,14 +222,20 @@
     <footer>
       <div class="container">
       <div class="row">
-      <div class="col-sm-3">
+      <div class="col-sm-3 footer1">
       {{ page.footer1 }}
     </div>
-      <div class="col-sm-3">
+      <div class="col-sm-3 footer2">
        {{ page.footer2 }}
      </div>
-     <div class="col-sm-3 col-md-offset-3">
+     <div class="col-sm-3 col-md-offset-3 footer3">
+      <div class="flex-container">
+        <div class="fab fa-twitter">
+        </div>
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </div>
         {{ page.footer3 }}
+      
       </div>
 
     </div>

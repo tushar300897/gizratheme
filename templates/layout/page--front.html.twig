@@ -60,12 +60,14 @@
         'navbar',
         theme.settings.navbar_inverse ? 'navbar-inverse' : 'navbar-default',
         theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : container,
+        'small'
       ]
     %}
-    <header{{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">
+    <header{{ navbar_attributes.addClass(navbar_classes)}} id="navbar" role="banner">
       {% if not navbar_attributes.hasClass(container) %}
-        <div class="{{ container }}">
+        <div class="{{ container }} ">
       {% endif %}
+      <div class="col-sm-12 gizra-header">
       <div class="navbar-header">
         {{ page.navigation }}
         {# .btn-navbar is used as the toggle for collapsed navbar content #}
@@ -78,6 +80,7 @@
           </button>
         {% endif %}
       </div>
+    </div>
 
       {# Navigation (collapsible) #}
       {% if page.navigation_collapsible %}
@@ -100,7 +103,7 @@
       {# Header #}
       {% if page.header %}
         {% block header %}
-          <div class="col-sm-12" role="heading">
+          <div class="col-sm-12 gizra-container" role="heading">
             {{ page.header }}
           </div>
         {% endblock %}
@@ -196,9 +199,22 @@
         {% endblock %}
 
 
+
+      {% block more_projects %}
+          <a id="more_projects"></a>
+          <div class= "col-sm-12 more_projects see_more">
+            
+            {{ page.more_projects }}
+          
+        </div>
+        {% endblock %}
+
+
+
+
        {% if page.blog_view %}
           {% block blog_view %}
-            <div class="col-sm-12">
+            <div class="col-sm-12 gizra-blogview">
             {{ page.blog_view }}
              </div>
           {% endblock %}
@@ -217,15 +233,22 @@
     <footer>
       <div class="container">
       <div class="row">
-      <div class="col-sm-3">
+      <div class="col-sm-3 footer1">
       {{ page.footer1 }}
     </div>
-      <div class="col-sm-3">
+      <div class="col-sm-3 footer2">
        {{ page.footer2 }}
      </div>
-     <div class="col-sm-3 col-md-offset-3">
+     <div class="col-sm-3 col-md-offset-3 footer3">
+        <div class="flex-container">
+        <div class="fab fa-twitter">
+        </div>
+        <div class="fab fa-github" aria-hidden="true"></div>
+        </div>
         {{ page.footer3 }}
-      </div>
+      
+      
+    </div>
 
     </div>
   </div>

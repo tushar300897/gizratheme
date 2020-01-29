@@ -1,0 +1,22 @@
+
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - gizra
+_core:
+  
+id: gizra_help
+theme: gizra
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

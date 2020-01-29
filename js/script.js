@@ -5,14 +5,21 @@
 (function ($, Drupal, gizra, Attributes) {
 
     $(".navbar-toggle").click(function(){
-    $(".nav").show();
+    $(".nav").css("width","100%");
 
   });
 
     $(".closesidebar").click(function(){
-    $(".nav").hide();
+    $(".nav").css("width","0");;
 
   });
   
+   $(window).scroll(function() {
+    if ($(document).scrollTop() > 15) {
+      $("header").addClass("small");
+    } else {
+      $("header").removeClass("small");
+    }
+  });
 
 })(window.jQuery, window.Drupal, window.Drupal.gizra, window.Attributes);

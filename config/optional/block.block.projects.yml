@@ -1,0 +1,31 @@
+
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:971c6278-84ba-45d3-8ef3-fa872f83d4f8'
+  module:
+    - block_content
+    - system
+  theme:
+    - gizra
+id: projects
+theme: gizra
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:971c6278-84ba-45d3-8ef3-fa872f83d4f8'
+settings:
+  id: 'block_content:971c6278-84ba-45d3-8ef3-fa872f83d4f8'
+  label: '<our work>'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

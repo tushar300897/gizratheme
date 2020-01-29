@@ -1,0 +1,25 @@
+
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d065cd1b-c959-4e5e-bf02-3d8bf908d9bd'
+  module:
+    - block_content
+  theme:
+    - gizra
+id: footer2
+theme: gizra
+region: footer2
+weight: 0
+provider: null
+plugin: 'block_content:d065cd1b-c959-4e5e-bf02-3d8bf908d9bd'
+settings:
+  id: 'block_content:d065cd1b-c959-4e5e-bf02-3d8bf908d9bd'
+  label: Chicago
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

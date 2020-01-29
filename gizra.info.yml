@@ -19,6 +19,7 @@ regions:
   sidebar_first: 'Primary'
   sidebar_second: 'Secondary'
   customblock_region: 'Customblock region'
+  more_projects: 'More projects'
   blog_view: 'Blog View'
 
   footer1: 'Footerone'
@@ -32,6 +33,8 @@ regions:
 libraries:
   - gizra/global-styling
   - gizra/attributes
+  - gizra/fonts
+  - gizra/font-awesome
  
 
 # Information added by Drupal.org packaging script on 2019-01-09

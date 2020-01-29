@@ -37,9 +37,6 @@
   top: 0;
   font-size: 33px;
   right: 0;
-  background: none;
-  color: #f1f1f1;
-  border: none;
 }
 
 .navbar-toggle {
@@ -77,9 +74,6 @@
   color: #e27058;
   text-decoration: none;
 }
-.navbar-default .navbar-brand:hover {
-  color: #e27058;
-}
 
 .navbar {
   position: fixed;
@@ -109,12 +103,11 @@
   }
 }
 .first p {
-  font-size: 61px;
-  line-height: 1;
+  font-size: 72px;
 }
 
 .second p {
-  font-size: 35px;
+  font-size: 50px;
   color: darkgrey;
 }
 
@@ -135,8 +128,6 @@
 
 .contact {
   text-align: center;
-  margin-top: 51px;
-  margin-bottom: 53px;
 }
 
 .contact .btn {
@@ -173,8 +164,7 @@
 
 .separator {
   color: #e27058;
-  font-size: 52px;
-  padding: 5px 67px 0px 69px;
+  font-size: 86px;
 }
 
 .box .rule {
@@ -185,10 +175,7 @@
 }
 
 .gizra-logo {
-  color: #e27058;
-  font-family: initial;
-  font-weight: 600;
-  font-size: 38px;
+  color: red;
 }
 
 #block-projects {
@@ -232,38 +219,6 @@
   float: right;
 }
 
-@media only screen and (max-width: 600px) {
-  .field--name-user-picture img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .author .authorinfo {
-    display: flex;
-  }
-  .author .authorinfo .datetime span a {
-    color: black;
-    font-weight: bold;
-  }
-  .author .authorinfo .datetime .time {
-    font-weight: bold;
-  }
-  .author .datetime {
-    width: 100%;
-    margin-top: 9px;
-    margin-left: 10px;
-  }
-  .author .authorinfo .datetime .time {
-    float: right;
-  }
-}
-.links .node-readmore a {
-  font-size: 20px;
-}
-.links .comment-add {
-  display: none;
-}
-
 .test-block {
   padding: 17px;
 }
@@ -299,33 +254,14 @@
 
 .post-info img {
   border-radius: 50%;
-  width: 95px;
-  margin-left: 38px;
-}
-.post-info .author {
-  margin-left: 34px;
+  width: 124px;
+  margin-left: 2px;
 }
 .post-info .author .authorname {
   font-size: 32px;
 }
-.post-info .author .authorname a {
-  color: black;
-}
 .post-info .author .dos {
-  margin-top: 38px;
-  font-weight: bold;
-  font-size: 19px;
-}
-.post-info .first-rule {
-  border-top: 2px solid #e27058;
-  width: 40%;
-  margin-top: 38px;
-}
-.post-info .second-rule {
-  border-top: 2.5px solid #e27058;
-  width: 42%;
-  margin-top: 35px;
-  margin-left: 47px;
+  margin-top: 11px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -338,11 +274,11 @@
 }
 
 .morework section.block:first-child {
-  width: 48%;
+  width: 50%;
   float: left;
 }
 .morework section.block:last-child {
-  width: 48%;
+  width: 50%;
   float: right;
 }
 
@@ -429,16 +365,9 @@ header.small a.navbar-brand {
     color: darkgrey;
   }
 }
-.gizra-way {
-  margin-top: 86px;
-  max-width: 1112px;
-  padding-left: 0;
-  padding-right: 0;
-}
 .gizra-way .description {
   text-align: center;
-  font-size: 17px;
-  margin-top: 66px;
+  font-size: 21px;
 }
 
 .fa {
@@ -501,9 +430,6 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  .work section h2 {
-    z-index: 99;
-  }
   .work section .workpic p {
     position: relative;
     overflow: hidden;
@@ -518,179 +444,21 @@ footer {
     transform: scale(1.1);
   }
 
-  .morework {
-    margin-top: 42px;
-  }
-  .morework div section h2 {
-    z-index: 99;
-  }
-  .morework div section .workpic p {
-    position: relative;
+  .morework section {
     overflow: hidden;
   }
-  .morework div section .workpic p img {
-    transition: 0.5s;
-    max-width: 100%;
-    width: 100%;
-    transform: scale(1);
+  .morework section h2 {
+    z-index: 99;
   }
-  .morework div section .workpic p img:hover {
+  .morework section img {
+    transition: 0.5s;
+  }
+  .morework section img:hover {
     transform: scale(1.1);
   }
 }
 .work h2 {
   text-align: center;
-}
-
-.field--name-user-picture img {
-  width: 50px;
-  height: 50px;
-}
-
-@media (min-width: 1200px) {
-  .gizra-container {
-    width: 960px;
-  }
-
-  .gizra-header {
-    margin-left: 91px;
-  }
-
-  .navbar-toggle {
-    margin-right: 183px;
-  }
-
-  .everybody-says .text-grid {
-    max-width: 960px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 92px;
-    margin-top: 32px;
-  }
-  .everybody-says .text-grid .second {
-    margin-top: 45px;
-  }
-
-  .service {
-    margin-top: 38px;
-  }
-  .service .strategy {
-    width: 30%;
-  }
-  .service .strategy p {
-    font-size: 19px;
-  }
-  .service .strategy .separator {
-    width: 5%;
-  }
-  .service .design {
-    width: 30%;
-  }
-  .service .design p {
-    font-size: 19px;
-  }
-  .service .design .separator {
-    width: 5%;
-  }
-  .service .development {
-    width: 30%;
-  }
-  .service .development p {
-    font-size: 19px;
-  }
-}
-@media (max-width: 768px) {
-  .everybody-says .text-grid {
-    max-width: 960px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 32px;
-  }
-  .everybody-says .text-grid .second {
-    margin-top: 45px;
-  }
-
-  .work section .block-title {
-    top: 35%;
-  }
-
-  .workpic img {
-    margin-top: 22px;
-  }
-}
-.nav .nav-item a {
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.1s;
-  text-align: center;
-}
-.nav .nav-item a:hover {
-  color: #f1f1f1;
-  text-decoration: none;
-}
-.nav li a:focus {
-  background: none;
-}
-.nav li a:hover {
-  background-color: none !important;
-}
-
-.nav .nav-item a:hover {
-  background: none !important;
-}
-
-.more_projects {
-  text-align: center;
-  margin-top: 40px;
-}
-.more_projects a {
-  border: 3px solid #578e9b;
-  padding: 15px 25px 15px 25px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  color: #578e9b;
-  text-decoration: none;
-  transition: all 0.5s ease;
-  font-size: 19px;
-}
-.more_projects a:hover {
-  background-color: #578e9b;
-  color: white;
-}
-
-.gizra-blogview {
-  margin-top: 108px;
-}
-
-.service .box h3 {
-  border-bottom: 2px solid #e27058;
-  margin-bottom: 7px;
-  padding-bottom: 7px;
-}
-
-@media (max-width: 768px) {
-  #mobile_authorinfo2 {
-    display: none;
-  }
-
-  .authorinfo {
-    margin: 0px 10px 0px 14px;
-  }
-  .authorinfo .authorpic img {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 6px;
-  }
-}
-@media (min-width: 1200px) {
-  #mobile_authorinfo1 {
-    display: none;
-  }
-}
-.page-header {
-  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

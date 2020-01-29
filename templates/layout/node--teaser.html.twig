@@ -65,11 +65,7 @@
  *   in different view modes.
  */
 #}
-<ol>
-  {% for key, value in content   %}
-    <li>{{ key }}</li>
-  {% endfor %}
-</ol>
+
 {%
   set classes = [
     node.bundle|clean_class,
@@ -93,9 +89,23 @@
     {{ content|without('field_articleimage','body','label','links') }}
 
   </div>
+
+   <div class="authorinfo" id="mobile_authorinfo1">
+  <div class="authorpic">
+  {{ author_picture }}
+   </div>
+   <div class="datetime"{{ author_attributes.addClass('author') }}>
+        {% trans %} {{ author_name }} 
+        <div class="time">
+         {{ date }}
+       </div>
+          {% endtrans %}
+        {{ metadata }}
+  </div>
+   </div>
   <div class="image col-lg-3">{{ content.field_articleimage }}</div>
   <div class="col-lg-9">
-    <div class="authorinfo">
+    <div class="authorinfo " id="mobile_authorinfo2">
   <div class="authorpic">
   {{ author_picture }}
    </div>

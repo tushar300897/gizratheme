@@ -1,0 +1,25 @@
+
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:02d86e28-d12d-4064-9420-a7d468ebc440'
+  module:
+    - block_content
+  theme:
+    - gizra
+id: footer3
+theme: gizra
+region: footer3
+weight: 0
+provider: null
+plugin: 'block_content:02d86e28-d12d-4064-9420-a7d468ebc440'
+settings:
+  id: 'block_content:02d86e28-d12d-4064-9420-a7d468ebc440'
+  label: Footer3
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

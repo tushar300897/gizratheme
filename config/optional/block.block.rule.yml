@@ -1,0 +1,31 @@
+
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:50afdc8a-2799-491f-bdd1-1e91072fc389'
+  module:
+    - block_content
+    - system
+  theme:
+    - gizra
+id: rule
+theme: gizra
+region: first_column
+weight: 0
+provider: null
+plugin: 'block_content:50afdc8a-2799-491f-bdd1-1e91072fc389'
+settings:
+  id: 'block_content:50afdc8a-2799-491f-bdd1-1e91072fc389'
+  label: Rule
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

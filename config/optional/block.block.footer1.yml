@@ -1,0 +1,25 @@
+
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9fe4bbcd-cd5f-4b82-9276-c75259b09005'
+  module:
+    - block_content
+  theme:
+    - gizra
+id: footer1
+theme: gizra
+region: footer1
+weight: 0
+provider: null
+plugin: 'block_content:9fe4bbcd-cd5f-4b82-9276-c75259b09005'
+settings:
+  id: 'block_content:9fe4bbcd-cd5f-4b82-9276-c75259b09005'
+  label: TLV
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

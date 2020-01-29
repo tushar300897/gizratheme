@@ -1,0 +1,31 @@
+uuid: d83773d1-e431-42c8-b0af-bfd226f63356
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b1ef3fe0-c2be-4a96-8dee-c7ecd184cff1'
+  module:
+    - block_content
+    - system
+  theme:
+    - gizra
+id: ehezamedicalrecordsapp
+theme: gizra
+region: work
+weight: 0
+provider: null
+plugin: 'block_content:b1ef3fe0-c2be-4a96-8dee-c7ecd184cff1'
+settings:
+  id: 'block_content:b1ef3fe0-c2be-4a96-8dee-c7ecd184cff1'
+  label: 'E-HEZA Medical Records App'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
