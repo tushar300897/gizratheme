@@ -1,6 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Frank+Ruhl+Libre|Montserrat|Open+Sans&display=swap');
+
 * {
   padding:0;
   margin: 0;
+}
+header{
+  width: 100%;
 }
 .services{
   text-align: center;
@@ -25,9 +31,11 @@
     top: 0px;
     bottom: 0px;
     z-index: 1111;
-    background: #111111;
+   background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.8;
     width: 0;
-    transition: 2s;
+    transition: 0.5s;
+    padding-top: 140px;
 
 
    }
@@ -35,27 +43,28 @@
     .closesidebar{
     
     position: absolute;
-    top: 0;
-    font-size: 33px;
-    right: 0;
+    top: 27px;
+    padding: 22px;
+    font-size: 38px;
+    right: 32px;
     background: none;
     color: #f1f1f1;
     border: none;
-   }
+       }
 
     .navbar-toggle { 
       position: absolute;
     right: 25px;
     top:0;
     }
-.nav .nav-item a {
 
+/*.nav .nav-item a {
   text-decoration: none;
   font-size: 25px;
   color: red;
   display: block;
   transition: 2s;
-}
+}*/
 .navbar-default .navbar-toggle {
     border-color: white;
 }
@@ -68,10 +77,10 @@
     width: 39px;
  }
  .navbar-default .navbar-brand{
-  font-size: 87px;
+  font-size: 76px;
   
-    font-family: initial;
-    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+
     color: #e27058;
     text-decoration: none;
     &:hover{
@@ -79,14 +88,16 @@
     }
  }
   .navbar{
+    left: 0;
     position: fixed;
     top: 0;
     max-width: 100%;
     margin: auto;
-  
-    padding: 30px;
+    padding: 30px 130px 0px 130px;
     z-index: 500;
     transition: 0.5s;
+    right: 0;
+    width: 100%;
    a{
     &.navbar-brand{
       transition: 0.2s;
@@ -97,6 +108,9 @@
     margin-top: 120px;
   }
 @media only screen and (min-width: 1200px) {
+  .container {
+    
+}
   .navbar.container {
     width:100%;
   }
@@ -110,15 +124,18 @@
   }
 }
 .first p{
-    font-size: 61px;
+    font-size: 31px;
     line-height: 1;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .second p{
-    font-size: 35px;
+    font-size: 36px;
     color: darkgrey;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 .first.rule{
+  margin-top: 21px;
 border-top: 1.5px solid #e27058;
     width: 42%;
 }
@@ -129,6 +146,12 @@ border-top: 1.5px solid #e27058;
 }
 .third {
   font-size: 20px;
+  font-family: 'Frank Ruhl Libre', serif;
+  p{
+    strong{
+      font-weight: 100;
+    }
+  }
 }
 .contact{
     text-align: center;
@@ -139,14 +162,15 @@ border-top: 1.5px solid #e27058;
 
 .contact {
   .btn{
-  border: 3px solid #578e9b;
-    padding: 12px 35px 12px 35px;
+ border: 3px solid #578e9b;
+    padding: 15px 30px 15px 30px;
     font-family: "Open Sans",sans-serif;
     font-weight: 700;
     color: #578e9b;
     text-decoration: none;
     transition: all 0.5s ease;
-    font-size: larger;
+    font-size: 21px;
+    border-radius: 0px;
     &:hover{
       background-color:#578e9b;
       color:white;
@@ -159,19 +183,31 @@ border-top: 1.5px solid #e27058;
 }
 .fas{
   color: #d7d6d5;
+  margin-left: 8px;
+    margin-right: 8px;
 } 
 @media only screen and (max-width: 600px){
 .service.container {
     display: block;
 }
 }
-.box h3{
+.box {
+  h3{
   font-size: 28px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+ }
+ p{
+  font-family: 'Open Sans', sans-serif;
+
+ }
 }
 .separator{
   color: #e27058;
   font-size: 52px;
-  padding: 5px 67px 0px 69px
+  padding: 5px 67px 0px 69px;
+  font-family: 'Frank Ruhl Libre', serif;
+
     
 
 }
@@ -183,8 +219,10 @@ border-top: 1.5px solid #e27058;
 }
 .gizra-logo{
     color: #e27058;
-    font-family: initial;
-    font-weight: 600;
+    font-family: 'Abril Fatface', cursive;
+
+
+    font-weight: 50;
     font-size: 38px;
 }
 #block-projects{
@@ -211,12 +249,18 @@ border-top: 1.5px solid #e27058;
   display: flex;
   .datetime{
     span{
+      font-family: 'Montserrat', sans-serif;
+
       a{
         color: black;
         font-weight: bold;
       }
     }
     .time{
+      span{
+        font-family: 'Montserrat', sans-serif;
+
+      }
       font-weight: bold;
     }
 
@@ -278,6 +322,11 @@ border-top: 1.5px solid #e27058;
   .node-readmore{
     a{
       font-size: 20px;
+      font-family: 'Frank Ruhl Libre', serif;
+      &:hover{color: #23527c;
+    text-decoration: none;
+  }
+
     }
   }
   .comment-add{
@@ -287,14 +336,35 @@ border-top: 1.5px solid #e27058;
 .test-block{
   padding:17px;
   .fas{ color: #d7d6d5;
+    font-size: 26px;
+
 } 
-  
+  .body{
+    div{
+      p{
+        font-family: 'Frank Ruhl Libre', serif;
+        a{
+          &:hover{
+            color: #23527c;
+    text-decoration: none;
+          }
+        }
+      }
+    }
+  }
 }
 .ourblogs h2{
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 33px;
 }
 .more-link{
   text-align: center;
+  text-align: center;
+    margin-top: 75px;
+    display: inline-block;
+    
    a{ 
   
     border: 3px solid #578e9b;
@@ -353,6 +423,7 @@ border-top: 1.5px solid #e27058;
  img{
     width: 100%;
 }
+
 }
 .footer{
   margin-top: 32px;
@@ -376,7 +447,10 @@ border-top: 1.5px solid #e27058;
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 19px;
-    top:50%;
+    /*top:75%;*/
+    bottom: 5%;
+    font-family: 'Montserrat', sans-serif;
+
 
     }
 
@@ -385,14 +459,17 @@ border-top: 1.5px solid #e27058;
 }
 
 .morework{
-  position: relative;
+ 
   section{
+    position: relative;
     .block-title{
       position: absolute;
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 19px;
-    top:50%;
+    /*top:65%;*/
+    bottom: 10%;
+    font-family: 'Montserrat', sans-serif;
 
     }
   }
@@ -400,6 +477,12 @@ border-top: 1.5px solid #e27058;
 }
 
 @media only screen and (max-width: 600px){
+  .test-block{
+    padding: 0;
+    .image{
+      padding: 0;
+    }
+  }
 
 .morework{
   section.block:first-child{
@@ -440,6 +523,7 @@ header{
 }
 @media only screen and (max-width: 768px){
   header{
+    width: 100%;
 &.navbar{
     position: fixed;
     top: 0;
@@ -474,9 +558,12 @@ header{
 
 }
 .first p{
-font-size: 33px;
-    font-weight: 700;
+font-size: 31px;
+    line-height: 1;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
 }
+
 
 .second p{
 font-size: 24px;
@@ -485,11 +572,17 @@ font-size: 24px;
 
 }
 .gizra-way{
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+  }
   margin-top: 86px;
   max-width: 1112px;
   padding-left: 0;
   padding-right: 0;
   .description{
+    font-family: 'Frank Ruhl Libre', serif;
+
     text-align: center;
     font-size: 17px;
     margin-top: 66px;
@@ -546,20 +639,47 @@ footer{
 }
 .footer1{
   line-height: 0.8;
+  section{
+    p{
+      font-family: 'Open Sans', sans-serif;
+      a{
+        text-decoration: underline;
+      }
+    }
+  }
 }
 .footer2{
   line-height: 0.8;
+  section{
+    p{
+      font-family: 'Open Sans', sans-serif;
+      a{
+        text-decoration: underline;
+      }
+     
+    }
+  }
 }
 .footer3{
   section{
     text-align: right;
     line-height: 4;
+      p{
+      font-family: 'Open Sans', sans-serif;
+
+    }
   }
 }
 @media only screen and (min-width: 768px){
 
   .work{
     section{
+      .block-title{
+        font-family: 'Montserrat', sans-serif;
+
+
+
+      }
       
       h2{
         z-index: 99;
@@ -569,7 +689,7 @@ footer{
         position: relative;
         overflow: hidden;
         img{
-          transition: 0.5s;
+          transition: 3.2s;
           max-width: 100%;
           width: 100%;
           transform: scale(1);
@@ -591,12 +711,17 @@ footer{
       h2{
         z-index: 99;
       }
+      .block-title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+
+      }
       .workpic{
         p{
           position: relative;
           overflow: hidden;
           img{
-            transition: 0.5s;
+            transition: 3.2s;
             max-width: 100%;
             width: 100%;
             transform: scale(1);
@@ -615,6 +740,10 @@ footer{
   .work{
     h2{
       text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      margin-bottom: 47px;
+
     }
   }
 .field--name-user-picture{
@@ -634,11 +763,11 @@ footer{
     width:960px;
 }
   .gizra-header{
-   margin-left: 91px;
+  
 
   }
   .navbar-toggle{
-    margin-right: 183px;
+    
 
   }
  .everybody-says{
@@ -647,7 +776,15 @@ footer{
     padding-left: 0;
     padding-right: 0;
     margin-left: 92px;
-    margin-top: 32px;
+    margin-top: 60px;
+    .first{
+      p{
+        font-size: 55px;
+    line-height: 1;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+      }
+    }
     .second{
       margin-top: 45px;
      
@@ -713,7 +850,10 @@ footer{
 .work{
   section{
     .block-title{
-      top:35%;
+      /*top:35%;*/
+      bottom: -10%;
+      font-family: 'Montserrat', sans-serif;
+
     }
   }
 }
@@ -731,10 +871,10 @@ footer{
   .nav-item{
     a{
       text-decoration: none;
-    font-size: 25px;
+    font-size: 36px;
     color: #818181;
     display: block;
-    transition: 0.1s;
+    transition: 0.2s;
     text-align: center;
     &:hover{
       color: #f1f1f1;
@@ -799,12 +939,35 @@ li{
 }
 
 @media (max-width: 768px){
+.more-link{
+  text-align: center;
+    margin-top: 75px;
+    display: inline-block;
+    width: 100%
+  
+
+  }
+  .more_projects{
+    a{
+    border: 3px solid #578e9b;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 800;
+    color: #578e9b;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 1.5rem 3rem;
+    font-size: 18px;
+
+  }
+}
 
   #mobile_authorinfo2{
     display: none;
   }
  .authorinfo{
-  margin: 0px 10px 0px 14px;
+  
   .authorpic{
     img{
       width: 40px;
@@ -824,4 +987,27 @@ li{
 }
 .page-header{
   display: none;
+}
+.title{
+
+  h3{
+    a{
+      span{
+        font-family: 'Montserrat', sans-serif;
+
+      }
+      &:hover{
+    color: #244b80;
+    text-decoration: none;
+  }
+    }
+  }
+}
+
+.navbar-default{
+ .navbar-toggle {
+  .icon-bar{
+    background-color: black;
+  }
+}
 }

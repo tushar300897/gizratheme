@@ -1,6 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Frank+Ruhl+Libre|Montserrat|Open+Sans&display=swap");
 * {
   padding: 0;
   margin: 0;
+}
+
+header {
+  width: 100%;
 }
 
 .services {
@@ -27,16 +32,19 @@
   top: 0px;
   bottom: 0px;
   z-index: 1111;
-  background: #111111;
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0.8;
   width: 0;
-  transition: 2s;
+  transition: 0.5s;
+  padding-top: 140px;
 }
 
 .closesidebar {
   position: absolute;
-  top: 0;
-  font-size: 33px;
-  right: 0;
+  top: 27px;
+  padding: 22px;
+  font-size: 38px;
+  right: 32px;
   background: none;
   color: #f1f1f1;
   border: none;
@@ -48,14 +56,13 @@
   top: 0;
 }
 
-.nav .nav-item a {
+/*.nav .nav-item a {
   text-decoration: none;
   font-size: 25px;
   color: red;
   display: block;
   transition: 2s;
-}
-
+}*/
 .navbar-default .navbar-toggle {
   border-color: white;
 }
@@ -71,9 +78,8 @@
 }
 
 .navbar-default .navbar-brand {
-  font-size: 87px;
-  font-family: initial;
-  font-weight: bold;
+  font-size: 76px;
+  font-family: "Abril Fatface", cursive;
   color: #e27058;
   text-decoration: none;
 }
@@ -82,13 +88,16 @@
 }
 
 .navbar {
+  left: 0;
   position: fixed;
   top: 0;
   max-width: 100%;
   margin: auto;
-  padding: 30px;
+  padding: 30px 130px 0px 130px;
   z-index: 500;
   transition: 0.5s;
+  right: 0;
+  width: 100%;
 }
 .navbar a.navbar-brand {
   transition: 0.2s;
@@ -109,16 +118,19 @@
   }
 }
 .first p {
-  font-size: 61px;
+  font-size: 31px;
   line-height: 1;
+  font-family: "Montserrat", sans-serif;
 }
 
 .second p {
-  font-size: 35px;
+  font-size: 36px;
   color: darkgrey;
+  font-family: "Frank Ruhl Libre", serif;
 }
 
 .first.rule {
+  margin-top: 21px;
   border-top: 1.5px solid #e27058;
   width: 42%;
 }
@@ -131,6 +143,10 @@
 
 .third {
   font-size: 20px;
+  font-family: "Frank Ruhl Libre", serif;
+}
+.third p strong {
+  font-weight: 100;
 }
 
 .contact {
@@ -141,13 +157,14 @@
 
 .contact .btn {
   border: 3px solid #578e9b;
-  padding: 12px 35px 12px 35px;
+  padding: 15px 30px 15px 30px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: #578e9b;
   text-decoration: none;
   transition: all 0.5s ease;
-  font-size: larger;
+  font-size: 21px;
+  border-radius: 0px;
 }
 .contact .btn:hover {
   background-color: #578e9b;
@@ -160,6 +177,8 @@
 
 .fas {
   color: #d7d6d5;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -169,12 +188,18 @@
 }
 .box h3 {
   font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.box p {
+  font-family: "Open Sans", sans-serif;
 }
 
 .separator {
   color: #e27058;
   font-size: 52px;
   padding: 5px 67px 0px 69px;
+  font-family: "Frank Ruhl Libre", serif;
 }
 
 .box .rule {
@@ -186,8 +211,8 @@
 
 .gizra-logo {
   color: #e27058;
-  font-family: initial;
-  font-weight: 600;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 50;
   font-size: 38px;
 }
 
@@ -214,12 +239,18 @@
 .authorinfo {
   display: flex;
 }
+.authorinfo .datetime span {
+  font-family: "Montserrat", sans-serif;
+}
 .authorinfo .datetime span a {
   color: black;
   font-weight: bold;
 }
 .authorinfo .datetime .time {
   font-weight: bold;
+}
+.authorinfo .datetime .time span {
+  font-family: "Montserrat", sans-serif;
 }
 
 .datetime {
@@ -259,6 +290,11 @@
 }
 .links .node-readmore a {
   font-size: 20px;
+  font-family: "Frank Ruhl Libre", serif;
+}
+.links .node-readmore a:hover {
+  color: #23527c;
+  text-decoration: none;
 }
 .links .comment-add {
   display: none;
@@ -269,14 +305,28 @@
 }
 .test-block .fas {
   color: #d7d6d5;
+  font-size: 26px;
+}
+.test-block .body div p {
+  font-family: "Frank Ruhl Libre", serif;
+}
+.test-block .body div p a:hover {
+  color: #23527c;
+  text-decoration: none;
 }
 
 .ourblogs h2 {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 33px;
 }
 
 .more-link {
   text-align: center;
+  text-align: center;
+  margin-top: 75px;
+  display: inline-block;
 }
 .more-link a {
   border: 3px solid #578e9b;
@@ -354,10 +404,12 @@
   color: aliceblue;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 19px;
-  top: 50%;
+  /*top:75%;*/
+  bottom: 5%;
+  font-family: "Montserrat", sans-serif;
 }
 
-.morework {
+.morework section {
   position: relative;
 }
 .morework section .block-title {
@@ -365,10 +417,19 @@
   color: aliceblue;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 19px;
-  top: 50%;
+  /*top:65%;*/
+  bottom: 10%;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
+  .test-block {
+    padding: 0;
+  }
+  .test-block .image {
+    padding: 0;
+  }
+
   .morework section.block:first-child {
     width: 100%;
   }
@@ -395,6 +456,9 @@ header.small a.navbar-brand {
 }
 
 @media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
   header.navbar {
     position: fixed;
     top: 0;
@@ -420,8 +484,10 @@ header.small a.navbar-brand {
   }
 
   .first p {
-    font-size: 33px;
-    font-weight: 700;
+    font-size: 31px;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
   }
 
   .second p {
@@ -435,7 +501,12 @@ header.small a.navbar-brand {
   padding-left: 0;
   padding-right: 0;
 }
+.gizra-way h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600px;
+}
 .gizra-way .description {
+  font-family: "Frank Ruhl Libre", serif;
   text-align: center;
   font-size: 17px;
   margin-top: 66px;
@@ -490,17 +561,35 @@ footer {
 .footer1 {
   line-height: 0.8;
 }
+.footer1 section p {
+  font-family: "Open Sans", sans-serif;
+}
+.footer1 section p a {
+  text-decoration: underline;
+}
 
 .footer2 {
   line-height: 0.8;
+}
+.footer2 section p {
+  font-family: "Open Sans", sans-serif;
+}
+.footer2 section p a {
+  text-decoration: underline;
 }
 
 .footer3 section {
   text-align: right;
   line-height: 4;
 }
+.footer3 section p {
+  font-family: "Open Sans", sans-serif;
+}
 
 @media only screen and (min-width: 768px) {
+  .work section .block-title {
+    font-family: "Montserrat", sans-serif;
+  }
   .work section h2 {
     z-index: 99;
   }
@@ -509,7 +598,7 @@ footer {
     overflow: hidden;
   }
   .work section .workpic p img {
-    transition: 0.5s;
+    transition: 3.2s;
     max-width: 100%;
     width: 100%;
     transform: scale(1);
@@ -524,12 +613,16 @@ footer {
   .morework div section h2 {
     z-index: 99;
   }
+  .morework div section .block-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+  }
   .morework div section .workpic p {
     position: relative;
     overflow: hidden;
   }
   .morework div section .workpic p img {
-    transition: 0.5s;
+    transition: 3.2s;
     max-width: 100%;
     width: 100%;
     transform: scale(1);
@@ -540,6 +633,9 @@ footer {
 }
 .work h2 {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 47px;
 }
 
 .field--name-user-picture img {
@@ -552,20 +648,18 @@ footer {
     width: 960px;
   }
 
-  .gizra-header {
-    margin-left: 91px;
-  }
-
-  .navbar-toggle {
-    margin-right: 183px;
-  }
-
   .everybody-says .text-grid {
     max-width: 960px;
     padding-left: 0;
     padding-right: 0;
     margin-left: 92px;
-    margin-top: 32px;
+    margin-top: 60px;
+  }
+  .everybody-says .text-grid .first p {
+    font-size: 55px;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
   }
   .everybody-says .text-grid .second {
     margin-top: 45px;
@@ -611,7 +705,9 @@ footer {
   }
 
   .work section .block-title {
-    top: 35%;
+    /*top:35%;*/
+    bottom: -10%;
+    font-family: "Montserrat", sans-serif;
   }
 
   .workpic img {
@@ -620,10 +716,10 @@ footer {
 }
 .nav .nav-item a {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 36px;
   color: #818181;
   display: block;
-  transition: 0.1s;
+  transition: 0.2s;
   text-align: center;
 }
 .nav .nav-item a:hover {
@@ -671,13 +767,30 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .more-link {
+    text-align: center;
+    margin-top: 75px;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .more_projects a {
+    border: 3px solid #578e9b;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #578e9b;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 1.5rem 3rem;
+    font-size: 18px;
+  }
+
   #mobile_authorinfo2 {
     display: none;
   }
 
-  .authorinfo {
-    margin: 0px 10px 0px 14px;
-  }
   .authorinfo .authorpic img {
     width: 40px;
     height: 40px;
@@ -691,6 +804,18 @@ footer {
 }
 .page-header {
   display: none;
+}
+
+.title h3 a span {
+  font-family: "Montserrat", sans-serif;
+}
+.title h3 a:hover {
+  color: #244b80;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

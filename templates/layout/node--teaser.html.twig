@@ -76,6 +76,8 @@
     'clearfix',
   ]
 %}
+{% set createdDate = node.getCreatedTime|date('M d Y') %}
+
 <article{{ attributes.addClass(classes) }}>
 
   {{ title_prefix }}
@@ -97,7 +99,7 @@
    <div class="datetime"{{ author_attributes.addClass('author') }}>
         {% trans %} {{ author_name }} 
         <div class="time">
-         {{ date }}
+         {{ createdDate }}
        </div>
           {% endtrans %}
         {{ metadata }}
@@ -112,7 +114,7 @@
    <div class="datetime"{{ author_attributes.addClass('author') }}>
         {% trans %} {{ author_name }} 
         <div class="time">
-         {{ date }}
+         {{ createdDate }}
        </div>
           {% endtrans %}
         {{ metadata }}
