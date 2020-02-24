@@ -1,4 +1,4 @@
-
+uuid: f2304c2c-cc8d-4982-90a7-accb83d79c1e
 langcode: en
 status: false
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   theme:
     - gizra
 _core:
-  
+  default_config_hash: tz-m350xz503MQ87ZqL-ZJuD36qCP4rSLsfHCq1iUZo
 id: gizra_footer
 theme: gizra
 region: navigation

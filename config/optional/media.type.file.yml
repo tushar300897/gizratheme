@@ -1,0 +1,16 @@
+uuid: 51d932bf-af2a-4a33-b09a-3ef82700187f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Klf95WppL4ogbUl7TMWIxoZwFaSwGOhkcoTCjy7nlYA
+id: file
+label: File
+description: 'Use local files for reusable media.'
+source: file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_file
+field_map:
+  name: name

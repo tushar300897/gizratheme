@@ -1,4 +1,4 @@
-
+uuid: b61daab8-cae4-43b2-871f-99257148de2f
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
     - system
   theme:
     - gizra
+_core:
+  default_config_hash: 3KmqmWCNGBr4NCK4N9Lv_mSoDfJXfkZCh68Ky3ymPWo
 id: everybodysays
 theme: gizra
 region: header

@@ -1,0 +1,23 @@
+uuid: aebd0de1-e172-4c5d-96b4-906cddf8fe8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.button
+    - field.storage.block_content.field_get_in_touch
+  module:
+    - link
+id: block_content.button.field_get_in_touch
+field_name: field_get_in_touch
+entity_type: block_content
+bundle: button
+label: 'Get in touch'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

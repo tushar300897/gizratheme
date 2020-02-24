@@ -1,4 +1,4 @@
-
+uuid: 47874c68-cc6c-4e88-953a-403c2ee5770d
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - block_content
   theme:
     - gizra
+_core:
+  default_config_hash: qPeFh7G34zL2AeuftZTWzvlw0Cq5U5dmjLwOYNThco4
 id: footer3
 theme: gizra
 region: footer3

@@ -1,0 +1,109 @@
+uuid: ff77bc2a-2337-46aa-84e6-83ac239e0c9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - ckeditor
+_core:
+  default_config_hash: 967ijj7p6i7rwrYl7r08WQFeCY_c23YAh0h8u-w_CXM
+format: full_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - Strike
+            - Superscript
+            - Subscript
+            - '-'
+            - RemoveFormat
+        -
+          name: Linking
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - video_embed
+            - Blockquote
+            - DrupalImage
+            - Table
+            - CodeSnippet
+            - HorizontalRule
+            - Language
+        -
+          name: 'Block Formatting'
+          items:
+            - Format
+        -
+          name: Tools
+          items:
+            - ShowBlocks
+            - Source
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: ''
+    codesnippet:
+      highlight_style: github
+      highlight_languages:
+        apache: apache
+        bash: bash
+        css: css
+        coffeescript: coffeescript
+        dart: dart
+        dockerfile: dockerfile
+        dust: dust
+        gherkin: gherkin
+        go: go
+        haml: haml
+        handlebars: handlebars
+        ini: ini
+        json: json
+        java: java
+        javascript: javascript
+        less: less
+        makefile: makefile
+        markdown: markdown
+        nginx: nginx
+        php: php
+        perl: perl
+        powershell: powershell
+        puppet: puppet
+        python: python
+        ruby: ruby
+        scss: scss
+        sql: sql
+        twig: twig
+        typescript: typescript
+        xml: xml
+        yaml: yaml
+    video_embed:
+      defaults:
+        children:
+          autoplay: true
+          responsive: true
+          width: '854'
+          height: '480'
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

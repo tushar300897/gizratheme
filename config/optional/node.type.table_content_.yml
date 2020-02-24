@@ -1,0 +1,19 @@
+uuid: fbcc406f-24f7-45c9-9e7e-13940969f32d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: b62KRehoMf38uxDUUisKqNQ_tSkY-AyuY-JYoDhBV0g
+name: 'Table Content'
+type: table_content_
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

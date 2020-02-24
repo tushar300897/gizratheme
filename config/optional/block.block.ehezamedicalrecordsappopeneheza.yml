@@ -9,6 +9,8 @@ dependencies:
     - system
   theme:
     - gizra
+_core:
+  default_config_hash: M8FZHY60fbdxlQS7FerK_NS3rQAKM9WlrgtN9hpSZhI
 id: ehezamedicalrecordsappopeneheza
 theme: gizra
 region: morework

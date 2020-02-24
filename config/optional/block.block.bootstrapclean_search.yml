@@ -1,0 +1,23 @@
+uuid: 8a52c36a-01bf-4be1-8b04-40e0067f9ad4
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - bootstrapclean
+_core:
+  default_config_hash: S4DRPqV9tGyNxNTpI9F--Qxsosg_68OqBVcycfVTiIs
+id: bootstrapclean_search
+theme: bootstrapclean
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: ''
+visibility: {  }

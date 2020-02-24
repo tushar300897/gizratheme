@@ -1,11 +1,11 @@
-
+uuid: bada158a-53ad-4448-a96c-2774d4496ef0
 langcode: en
 status: false
 dependencies:
   theme:
     - gizra
 _core:
-  
+  default_config_hash: Q3jpQVuomvKu_LfQHLmc1bWi5vZ0ZKORwiLYte6knrc
 id: gizra_local_actions
 theme: gizra
 region: content

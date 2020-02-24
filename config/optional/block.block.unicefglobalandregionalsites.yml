@@ -1,4 +1,4 @@
-
+uuid: 4957e3a4-8d55-41b0-8dc9-225b7c1a4676
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
     - system
   theme:
     - gizra
+_core:
+  default_config_hash: yV7YYyCzcM6fKTYUR2Jb77msUSglTobeJnvoEcffyyY
 id: unicefglobalandregionalsites
 theme: gizra
 region: morework

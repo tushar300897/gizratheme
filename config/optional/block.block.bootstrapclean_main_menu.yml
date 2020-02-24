@@ -1,0 +1,27 @@
+uuid: ded33b4e-6a9a-42fc-b313-5b2dedfe0007
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - bootstrapclean
+_core:
+  default_config_hash: qEOkWvIBzhxgVVqUw-auujWo1RpSAhFw9n8pLiP5ydM
+id: bootstrapclean_main_menu
+theme: bootstrapclean
+region: navigation_collapsible
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

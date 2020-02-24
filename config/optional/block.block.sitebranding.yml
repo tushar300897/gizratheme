@@ -1,0 +1,25 @@
+uuid: 6bb40f72-ac26-4246-9896-103f0d91a42e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrapclean
+_core:
+  default_config_hash: X-SnuOzW6avTX2dKYsLlutkMQQZ9X4JnwvcH5FmAJfE
+id: sitebranding
+theme: bootstrapclean
+region: site_branding
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

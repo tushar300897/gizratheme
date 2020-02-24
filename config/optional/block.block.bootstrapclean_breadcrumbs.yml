@@ -1,0 +1,22 @@
+uuid: 1457f915-e861-4348-ac16-91a234f824c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrapclean
+_core:
+  default_config_hash: iGbu-Lfv1HEc90EgZpLOnCqyCoq7aWpCHgIm1al_0xg
+id: bootstrapclean_breadcrumbs
+theme: bootstrapclean
+region: header
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

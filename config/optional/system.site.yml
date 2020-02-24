@@ -1,0 +1,14 @@
+uuid: eca0d572-54bf-450f-b67d-ef1658cf6b2f
+name: gizra
+mail: email@email.com
+slogan: gizra
+page:
+  403: ''
+  404: ''
+  front: /frontpage
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

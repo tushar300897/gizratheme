@@ -1,0 +1,29 @@
+uuid: 990bbc23-6204-4408-9acf-3fee3373ebbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.table_content_.field_address
+    - field.field.node.table_content_.field_name
+    - field.field.node.table_content_.field_orders
+    - node.type.table_content_
+  module:
+    - user
+_core:
+  default_config_hash: 6xp12tQMNOEJZH2-0sGUm9svkikNZJccUpjNApjozhs
+id: node.table_content_.teaser
+targetEntityType: node
+bundle: table_content_
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_address: true
+  field_name: true
+  field_orders: true

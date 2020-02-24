@@ -9,6 +9,8 @@ dependencies:
     - system
   theme:
     - gizra
+_core:
+  default_config_hash: cZeU9CZsUlqjtpvHVNA57NCK9r6EyT1TvK2Ega97RSw
 id: ehezamedicalrecordsapp
 theme: gizra
 region: work

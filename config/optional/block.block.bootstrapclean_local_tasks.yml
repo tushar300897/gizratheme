@@ -1,0 +1,22 @@
+uuid: 06724b98-b4b4-406e-bebc-5709711b9d5e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootstrapclean
+_core:
+  default_config_hash: iAkzVIuQhh-TxEfrLCIZqJrT09rj9dAYuzIRj2xB6EU
+id: bootstrapclean_local_tasks
+theme: bootstrapclean
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

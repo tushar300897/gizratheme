@@ -1,0 +1,25 @@
+uuid: 6cde7328-4d92-47a4-bbc2-73af46bd1c5d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:71223712-0aa7-4ffd-afc9-1ec8bd9d2b7e'
+  module:
+    - block_content
+  theme:
+    - gizra
+id: moreprojects
+theme: gizra
+region: more_projects
+weight: 0
+provider: null
+plugin: 'block_content:71223712-0aa7-4ffd-afc9-1ec8bd9d2b7e'
+settings:
+  id: 'block_content:71223712-0aa7-4ffd-afc9-1ec8bd9d2b7e'
+  label: Moreprojects
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

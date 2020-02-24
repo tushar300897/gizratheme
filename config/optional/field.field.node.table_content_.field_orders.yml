@@ -1,0 +1,25 @@
+uuid: b3cb56ff-b3f1-4b19-b5d6-dc8504edefb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_orders
+    - node.type.table_content_
+_core:
+  default_config_hash: NQTbsYTAQGvkg0ZKg0TxNeyTqemU-n6Iw0mMVcssVxk
+id: node.table_content_.field_orders
+field_name: field_orders
+entity_type: node
+bundle: table_content_
+label: Orders
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

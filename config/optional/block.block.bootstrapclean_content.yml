@@ -1,0 +1,22 @@
+uuid: d23ca9f2-287c-4fd3-839b-6da58e0fb050
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrapclean
+_core:
+  default_config_hash: 30OtRZH-FrWlZ1nObbqCs4DpsIgt_P7IMy4QN2CMYwY
+id: bootstrapclean_content
+theme: bootstrapclean
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

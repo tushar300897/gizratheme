@@ -1,0 +1,21 @@
+uuid: 437639d1-b344-4516-b143-a74b2a2a60f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.table_content_
+_core:
+  default_config_hash: qbc2S8vt0YvpvNdUy9LINguvur_zqCJxkzqYv9j93u0
+id: node.table_content_.field_name
+field_name: field_name
+entity_type: node
+bundle: table_content_
+label: Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

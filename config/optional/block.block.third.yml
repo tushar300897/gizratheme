@@ -1,3 +1,4 @@
+uuid: dfdd128f-7e63-410c-8e10-f8301a3a37c3
 langcode: en
 status: true
 dependencies:
@@ -8,6 +9,8 @@ dependencies:
     - system
   theme:
     - gizra
+_core:
+  default_config_hash: YB1nK-8dSWQgcItQ6w7yxZxuguipkcYnJ1e5qLFRdwc
 id: third
 theme: gizra
 region: second_column

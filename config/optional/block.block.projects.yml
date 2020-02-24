@@ -1,4 +1,4 @@
-
+uuid: c5314a9e-8950-446b-a504-d7a1d030c7e6
 langcode: en
 status: false
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
     - system
   theme:
     - gizra
+_core:
+  default_config_hash: zemv2-sMWEjeXzRs-YZ5s8ycxbHgZBFIw2Kohy-ZNa8
 id: projects
 theme: gizra
 region: content

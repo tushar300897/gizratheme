@@ -1,0 +1,20 @@
+uuid: 91ba981a-c6c9-42ac-8544-ee38131ce045
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootstrapclean
+_core:
+  default_config_hash: fzFTvHvK6BaeZG4cnb-qf_lC2VQMEX2Dbk3P0SHCzZ0
+id: bootstrapclean_page_title
+theme: bootstrapclean
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

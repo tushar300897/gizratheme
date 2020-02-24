@@ -1,0 +1,23 @@
+uuid: 04ef7120-31f6-4884-9c0f-e139924bda53
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.table_content_
+  module:
+    - text
+_core:
+  default_config_hash: mfCqP8wyjymU7AMvpB3H2nlWZE9suX4C1ep4IqZfH9Y
+id: node.table_content_.field_address
+field_name: field_address
+entity_type: node
+bundle: table_content_
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

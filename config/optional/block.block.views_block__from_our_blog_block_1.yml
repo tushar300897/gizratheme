@@ -1,4 +1,4 @@
-
+uuid: b6592b5e-184c-42e0-ab53-e7fe727873c0
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
     - views
   theme:
     - gizra
+_core:
+  default_config_hash: 2HDDC0r16zPQLcQT2xQAp-EBYfXGTOGb5-nEOUIp82M
 id: views_block__from_our_blog_block_1
 theme: gizra
 region: blog_view
